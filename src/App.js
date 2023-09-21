@@ -34,10 +34,11 @@ function App() {
       <div>
         <section>                              
             <Routes> 
+            <Route path="/" exact element={<Login/>}/>
               <Route path="/gallery" element={<Dashboard />} />                                                                       <Route path="/" element={<Home/>}/>
                <Route path="/signup" element={<Signup/>}/>
                <Route path="/login" element={<Login/>}/>
-               <Route path="/" element={<Login/>}/>
+               
             </Routes>                    
         </section>
       </div>
