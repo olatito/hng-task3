@@ -10,7 +10,7 @@ const Search = ({ handleSearch, searchInput}) => {
         <input 
           type="search" 
           className='inputField'
-          placeholder='Search Images'
+          placeholder='Click here to search Images...'
           ref={searchInput}/>
         <button onClick={(e) => handleSearch(e)} className='searchButton'>Search</button>
       </form>

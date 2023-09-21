@@ -12,3 +12,8 @@ h1{
 color: "#FFFFFF";
 font-size: "1.6rem";
 }
+
+.searchBar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

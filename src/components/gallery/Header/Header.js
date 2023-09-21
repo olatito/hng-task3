@@ -1,5 +1,6 @@
 import React from "react";
 import Search from "../Search/Search";
+import './Header.css';
 
 const Header = ({ handleSearch, searchInput }) => {
   return (
@@ -8,7 +9,7 @@ const Header = ({ handleSearch, searchInput }) => {
         <div>
           <h1>DROP n DRAG Gallery</h1>
         </div>
-        <div>
+        <div className="searchBar">
           <Search 
             handleSearch={(e) => handleSearch(e)}
             searchInput={searchInput} 

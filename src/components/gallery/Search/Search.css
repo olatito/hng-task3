@@ -1,61 +1,45 @@
-.header {
-    background: transparent;
-    background-color: transparent;
-    padding: 20px 98px;
-    margin-bottom: 20px;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-
+.searchBar {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  outline: none;
+  border: none;
+  padding-bottom: 20px;
 }
 
-.imageLogo{
-    padding-right: 0; 
+.inputField {
+  width: 900px;
+  border-right: 0px;
+  height: 50px;
+  outline: none;
+  border-color: transparent;
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+}
+::placeholder {
+  color: black;
+  font-size: 16px;
+  font-weight: 200;
+}
+.signInOption {
+  display: flex;
+  padding-left: 20px;
+  background: transparent;
 }
 
-.searchBar{
-    display: flex;
-    width: 400px;
+.signIn {
+  background-color: transparent;
+  color: black;
+  border: 0;
 }
 
-.inputField{
-    width: 900px;
-    border-right: 0px;
-    height: 30px;
-    outline: none;
-    border-color: white;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    background-color: transparent;
-    color: black;
+.menuBar {
+  padding-left: 20px;
 }
-::placeholder{
-    color: black;
-}
-.signInOption{
-    display: flex;
-    padding-left: 20px;
-    background: transparent;
-}
-
-.signIn{
-    background-color: transparent;
-    color: black;
-    border: 0;
-}
-
-.menuBar{
-    padding-left: 20px;
-}
-.searchButton{
-    border-left: 0px;
-    height: 36px;
-    background: white;
-    outline: none;
-    border-color: white;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    background-color: transparent;
+.searchButton {
+  border-left: 10px;
+  height: 52px;
+  border-color: transparent;
+  background-color: transparent;
 }
