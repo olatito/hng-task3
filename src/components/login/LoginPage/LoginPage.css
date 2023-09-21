@@ -1,0 +1,106 @@
+body {
+  background-color: #e5e5e5;
+}
+.login {
+  height: 100vh;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.inner-login-container {
+  display: grid;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signInHead {
+  color: #224957;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.signInP {
+  font-size: 16px;
+  color: #224957;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.userInput {
+  columns: #ffffff;
+  justify-content: center;
+  display: grid;
+}
+
+.username {
+  background-color: #224957;
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  padding-left: 1em;
+}
+
+.password {
+  background-color: #224957;
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  padding-left: 1em;
+}
+
+::placeholder {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+.authentication {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.loginButton {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+button {
+  border-radius: 7px;
+  height: 40px;
+  width: 300px;
+  background-color: #20df7f;
+  color: #224957;
+  font-size: 16px;
+}
+.loginImg {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.rmbLabel {
+  color: #093545;
+}
+
+.input[type="checkbox"] {
+  accent-color: #093545;
+}
