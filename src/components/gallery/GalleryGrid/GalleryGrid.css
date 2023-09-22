@@ -14,6 +14,8 @@
     object-fit: cover;
 }
 
+
+
 @media only screen and (min-width:200px) and (max-width:499px) {
     .gallery {
         background-color: black;
@@ -22,6 +24,12 @@
         grid-template-rows: repeat(3, 35vw);
         grid-gap: 15px;
         padding-top: 50px;
+    }
+    .gallery__item--0{
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+        margin-block-start: 10px;
+        margin-block-end: 10px;
     }
 
 }
@@ -34,5 +42,12 @@
         grid-gap: 15px;
         padding-top: 50px;
     }
+    .gallery__item--0{
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+        margin-block-start: 10px;
+        margin-block-end: 10px;
+    }
+
 
 }
