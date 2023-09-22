@@ -6,7 +6,7 @@ const Header = ({ handleSearch, searchInput }) => {
   return (
     <div>
       <div className="headerStyle">
-        <div>
+        <div className="h1div">
           <h1>DROP n DRAG Gallery</h1>
         </div>
         <div className="searchBar">

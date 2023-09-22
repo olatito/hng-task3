@@ -13,3 +13,27 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width:500px) {
+    .gallery {
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 35vw);
+        grid-gap: 15px;
+        padding-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width:950px) {
+    .gallery {
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 35vw);
+        grid-gap: 15px;
+        padding-top: 50px;
+    }
+
+}
