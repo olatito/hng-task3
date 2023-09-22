@@ -43,7 +43,7 @@
   border-color: transparent;
   background-color: transparent;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width:200px) and (max-width:499px) {
     .searchBar {
         display: flex;
         justify-content: center;
@@ -76,7 +76,7 @@
 
 }
 
-@media only screen and (min-width:700px) {
+@media only screen and (min-width:500px) and (max-width:950px) {
     .searchBar {
         display: flex;
         justify-content: center;
