@@ -40,7 +40,9 @@ body {
   justify-content: center;
   display: grid;
 }
-
+input {
+  height: 16px;
+}
 .username {
   background-color: #224957;
   color: white;
@@ -103,4 +105,9 @@ button {
 
 .input[type="checkbox"] {
   accent-color: #093545;
+}
+
+.bottomVector {
+  bottom: 0px;
+  left: 50%;
 }

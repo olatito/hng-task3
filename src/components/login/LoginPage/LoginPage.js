@@ -105,7 +105,7 @@ function LoginPage() {
           </button>
         </div>
       </div>
-      <div><img src="/assets/Vectors.png"className="loginImg" /></div>
+      <div className="bottomVector"><img src="/assets/Vectors.png"className="loginImg" /></div>
     </div>
   );
 }
